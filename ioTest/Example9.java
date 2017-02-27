@@ -1,5 +1,3 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +7,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/6.
  * 输入两个文件夹名称，将A文件夹内容全部拷贝到B文件夹，要求使用多线程来操作
  * 实现方案是每当拷贝文件时都开启一个线程执行
  */
