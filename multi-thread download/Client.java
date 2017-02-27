@@ -1,5 +1,3 @@
-package com.taobao.mtt.test.nio;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -13,7 +11,6 @@ import java.util.concurrent.Executors;
 import java.nio.channels.Selector;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/8.
  * java NIO client 连接到Server并与之通信
  * client运用多线程的形式下载文件
  *
@@ -43,7 +40,7 @@ class ClientThread extends Thread {
         threadNum = i;
         try {
             selector = Selector.open();
-            destFile = new File("D:/idea_project/test-data-copy/ATA" + threadNum + ".png");
+            destFile = new File("D:/idea_project/test-data-copy/xxx" + threadNum + ".png");
             if (!destFile.exists()) {
                 destFile.createNewFile();
             }
