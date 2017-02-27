@@ -1,9 +1,6 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.*;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/5.
  * 在程序中写一个"HelloJavaWorld你好世界"输出到操作系统文件Hello.txt文件中
  */
 public class Example5 {
