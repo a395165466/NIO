@@ -1,9 +1,6 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.*;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/4.
  * 从磁盘读取一个文件到内存中，再打印到控制台
  */
 public class Example4 {
