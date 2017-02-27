@@ -1,9 +1,6 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.File;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/4.
  * 递归实现列出当前工程下所有.Java文件
  */
 public class Example3 {
