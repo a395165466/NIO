@@ -1,5 +1,3 @@
-package com.taobao.mtt.test.nio;
-
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -48,7 +46,7 @@ public class Server {
         ByteBuffer writeBuffer;
 
         //待下载的文件
-        RandomAccessFile accessFile = new RandomAccessFile(new File("D:/idea_project/test-data/ATA.png"), "r");
+        RandomAccessFile accessFile = new RandomAccessFile(new File("D:/idea_project/test-data/xxx.png"), "r");
         accessFile.seek(0);
 
         Selector selector = Selector.open();
