@@ -1,2 +1,3 @@
 # NIO
 学习NIO过程中写的一些实例
+NIO学习过程中写的一些实例，ioTest下是一些基于文件的读写实例，multi-thread download下是基于socketChannel的多线程下载文件的实例
