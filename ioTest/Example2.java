@@ -1,11 +1,6 @@
-package com.taobao.mtt.test.ioTest;
-
-import com.alibaba.citrus.util.StringUtil;
-
 import java.io.File;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/4.
  * 递归实现输入任意目录，列出文件以及文件夹
  */
 public class Example2 {
