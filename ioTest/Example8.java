@@ -1,5 +1,3 @@
-package com.taobao.mtt.test.ioTest;
-
 import com.sun.corba.se.impl.encoding.OSFCodeSetRegistry;
 
 import java.io.File;
@@ -7,7 +5,6 @@ import java.security.KeyStore;
 import java.util.*;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/6.
  * 查看D盘中所有的文件和文件夹名称，并且使用名称升序降序，文件夹在前和文件夹在
  * 后，文件大小排序等。
  */
