@@ -1,12 +1,9 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/6.
  * 拷贝一张图片，从一个目录到另外一个目录下
  */
 public class Example6 {
