@@ -1,10 +1,7 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/4.
  *
  * 在电脑D盘下创建一个文件为HelloWorld.txt文件，判断他是文件还是目录，在创建一个目
  * 录IOTest,之后将HelloWorld.txt移动到IOTest目录下去；之后遍历IOTest这个目录下的文
