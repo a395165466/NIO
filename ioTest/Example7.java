@@ -1,11 +1,8 @@
-package com.taobao.mtt.test.ioTest;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 
 /**
- * Created by zhangguoqing.zgq on 2017/2/6.
  * 使用随机文件流类RandomAccessFile将一个文本文件倒置读出。
  */
 public class Example7 {
